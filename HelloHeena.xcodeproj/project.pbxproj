@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		398139DD1F67FA6D00FC3D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398139DC1F67FA6D00FC3D60 /* AppDelegate.swift */; };
+		398139DF1F67FA6D00FC3D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398139DE1F67FA6D00FC3D60 /* ViewController.swift */; };
+		398139E21F67FA6D00FC3D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398139E01F67FA6D00FC3D60 /* Main.storyboard */; };
+		398139E51F67FA6D00FC3D60 /* HelloHeena.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 398139E31F67FA6D00FC3D60 /* HelloHeena.xcdatamodeld */; };
+		398139E71F67FA6D00FC3D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398139E61F67FA6D00FC3D60 /* Assets.xcassets */; };
+		398139EA1F67FA6D00FC3D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398139E81F67FA6D00FC3D60 /* LaunchScreen.storyboard */; };
+		398139F51F67FA6D00FC3D60 /* HelloHeenaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398139F41F67FA6D00FC3D60 /* HelloHeenaTests.swift */; };
+		39813A001F67FA6D00FC3D60 /* HelloHeenaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398139FF1F67FA6D00FC3D60 /* HelloHeenaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		398139F11F67FA6D00FC3D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398139D11F67FA6C00FC3D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 398139D81F67FA6C00FC3D60;
+			remoteInfo = HelloHeena;
+		};
+		398139FC1F67FA6D00FC3D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398139D11F67FA6C00FC3D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 398139D81F67FA6C00FC3D60;
+			remoteInfo = HelloHeena;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		398139D91F67FA6D00FC3D60 /* HelloHeena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloHeena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		398139DC1F67FA6D00FC3D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		398139DE1F67FA6D00FC3D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		398139E11F67FA6D00FC3D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		398139E41F67FA6D00FC3D60 /* HelloHeena.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HelloHeena.xcdatamodel; sourceTree = "<group>"; };
+		398139E61F67FA6D00FC3D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		398139E91F67FA6D00FC3D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		398139EB1F67FA6D00FC3D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398139F01F67FA6D00FC3D60 /* HelloHeenaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloHeenaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		398139F41F67FA6D00FC3D60 /* HelloHeenaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloHeenaTests.swift; sourceTree = "<group>"; };
+		398139F61F67FA6D00FC3D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398139FB1F67FA6D00FC3D60 /* HelloHeenaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloHeenaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		398139FF1F67FA6D00FC3D60 /* HelloHeenaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloHeenaUITests.swift; sourceTree = "<group>"; };
+		39813A011F67FA6D00FC3D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		398139D61F67FA6C00FC3D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398139ED1F67FA6D00FC3D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398139F81F67FA6D00FC3D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		398139D01F67FA6C00FC3D60 = {
+			isa = PBXGroup;
+			children = (
+				398139DB1F67FA6D00FC3D60 /* HelloHeena */,
+				398139F31F67FA6D00FC3D60 /* HelloHeenaTests */,
+				398139FE1F67FA6D00FC3D60 /* HelloHeenaUITests */,
+				398139DA1F67FA6D00FC3D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		398139DA1F67FA6D00FC3D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				398139D91F67FA6D00FC3D60 /* HelloHeena.app */,
+				398139F01F67FA6D00FC3D60 /* HelloHeenaTests.xctest */,
+				398139FB1F67FA6D00FC3D60 /* HelloHeenaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		398139DB1F67FA6D00FC3D60 /* HelloHeena */ = {
+			isa = PBXGroup;
+			children = (
+				398139DC1F67FA6D00FC3D60 /* AppDelegate.swift */,
+				398139DE1F67FA6D00FC3D60 /* ViewController.swift */,
+				398139E01F67FA6D00FC3D60 /* Main.storyboard */,
+				398139E61F67FA6D00FC3D60 /* Assets.xcassets */,
+				398139E81F67FA6D00FC3D60 /* LaunchScreen.storyboard */,
+				398139EB1F67FA6D00FC3D60 /* Info.plist */,
+				398139E31F67FA6D00FC3D60 /* HelloHeena.xcdatamodeld */,
+			);
+			path = HelloHeena;
+			sourceTree = "<group>";
+		};
+		398139F31F67FA6D00FC3D60 /* HelloHeenaTests */ = {
+			isa = PBXGroup;
+			children = (
+				398139F41F67FA6D00FC3D60 /* HelloHeenaTests.swift */,
+				398139F61F67FA6D00FC3D60 /* Info.plist */,
+			);
+			path = HelloHeenaTests;
+			sourceTree = "<group>";
+		};
+		398139FE1F67FA6D00FC3D60 /* HelloHeenaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				398139FF1F67FA6D00FC3D60 /* HelloHeenaUITests.swift */,
+				39813A011F67FA6D00FC3D60 /* Info.plist */,
+			);
+			path = HelloHeenaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		398139D81F67FA6C00FC3D60 /* HelloHeena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39813A041F67FA6D00FC3D60 /* Build configuration list for PBXNativeTarget "HelloHeena" */;
+			buildPhases = (
+				398139D51F67FA6C00FC3D60 /* Sources */,
+				398139D61F67FA6C00FC3D60 /* Frameworks */,
+				398139D71F67FA6C00FC3D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloHeena;
+			productName = HelloHeena;
+			productReference = 398139D91F67FA6D00FC3D60 /* HelloHeena.app */;
+			productType = "com.apple.product-type.application";
+		};
+		398139EF1F67FA6D00FC3D60 /* HelloHeenaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39813A071F67FA6D00FC3D60 /* Build configuration list for PBXNativeTarget "HelloHeenaTests" */;
+			buildPhases = (
+				398139EC1F67FA6D00FC3D60 /* Sources */,
+				398139ED1F67FA6D00FC3D60 /* Frameworks */,
+				398139EE1F67FA6D00FC3D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				398139F21F67FA6D00FC3D60 /* PBXTargetDependency */,
+			);
+			name = HelloHeenaTests;
+			productName = HelloHeenaTests;
+			productReference = 398139F01F67FA6D00FC3D60 /* HelloHeenaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		398139FA1F67FA6D00FC3D60 /* HelloHeenaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39813A0A1F67FA6D00FC3D60 /* Build configuration list for PBXNativeTarget "HelloHeenaUITests" */;
+			buildPhases = (
+				398139F71F67FA6D00FC3D60 /* Sources */,
+				398139F81F67FA6D00FC3D60 /* Frameworks */,
+				398139F91F67FA6D00FC3D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				398139FD1F67FA6D00FC3D60 /* PBXTargetDependency */,
+			);
+			name = HelloHeenaUITests;
+			productName = HelloHeenaUITests;
+			productReference = 398139FB1F67FA6D00FC3D60 /* HelloHeenaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		398139D11F67FA6C00FC3D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Piyush Matta";
+				TargetAttributes = {
+					398139D81F67FA6C00FC3D60 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PP64RT7P8Z;
+						ProvisioningStyle = Manual;
+					};
+					398139EF1F67FA6D00FC3D60 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 398139D81F67FA6C00FC3D60;
+					};
+					398139FA1F67FA6D00FC3D60 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 398139D81F67FA6C00FC3D60;
+					};
+				};
+			};
+			buildConfigurationList = 398139D41F67FA6C00FC3D60 /* Build configuration list for PBXProject "HelloHeena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 398139D01F67FA6C00FC3D60;
+			productRefGroup = 398139DA1F67FA6D00FC3D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				398139D81F67FA6C00FC3D60 /* HelloHeena */,
+				398139EF1F67FA6D00FC3D60 /* HelloHeenaTests */,
+				398139FA1F67FA6D00FC3D60 /* HelloHeenaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		398139D71F67FA6C00FC3D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398139EA1F67FA6D00FC3D60 /* LaunchScreen.storyboard in Resources */,
+				398139E71F67FA6D00FC3D60 /* Assets.xcassets in Resources */,
+				398139E21F67FA6D00FC3D60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398139EE1F67FA6D00FC3D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398139F91F67FA6D00FC3D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		398139D51F67FA6C00FC3D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398139DF1F67FA6D00FC3D60 /* ViewController.swift in Sources */,
+				398139E51F67FA6D00FC3D60 /* HelloHeena.xcdatamodeld in Sources */,
+				398139DD1F67FA6D00FC3D60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398139EC1F67FA6D00FC3D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398139F51F67FA6D00FC3D60 /* HelloHeenaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		398139F71F67FA6D00FC3D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39813A001F67FA6D00FC3D60 /* HelloHeenaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		398139F21F67FA6D00FC3D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 398139D81F67FA6C00FC3D60 /* HelloHeena */;
+			targetProxy = 398139F11F67FA6D00FC3D60 /* PBXContainerItemProxy */;
+		};
+		398139FD1F67FA6D00FC3D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 398139D81F67FA6C00FC3D60 /* HelloHeena */;
+			targetProxy = 398139FC1F67FA6D00FC3D60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		398139E01F67FA6D00FC3D60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398139E11F67FA6D00FC3D60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		398139E81F67FA6D00FC3D60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				398139E91F67FA6D00FC3D60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39813A021F67FA6D00FC3D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39813A031F67FA6D00FC3D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39813A051F67FA6D00FC3D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Heena Chhabra (SECHSX9KA3)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
+				INFOPLIST_FILE = HelloHeena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.testproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "@IBM MobileFirst Wildcard Development Profile";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		39813A061F67FA6D00FC3D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Heena Chhabra (SECHSX9KA3)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = PP64RT7P8Z;
+				INFOPLIST_FILE = HelloHeena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.mobilefirst.testproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "@IBM MobileFirst Wildcard Development Profile";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		39813A081F67FA6D00FC3D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloHeenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GulluPizza.HelloHeenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloHeena.app/HelloHeena";
+			};
+			name = Debug;
+		};
+		39813A091F67FA6D00FC3D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloHeenaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GulluPizza.HelloHeenaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloHeena.app/HelloHeena";
+			};
+			name = Release;
+		};
+		39813A0B1F67FA6D00FC3D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HelloHeenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GulluPizza.HelloHeenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HelloHeena;
+			};
+			name = Debug;
+		};
+		39813A0C1F67FA6D00FC3D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HelloHeenaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.GulluPizza.HelloHeenaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HelloHeena;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		398139D41F67FA6C00FC3D60 /* Build configuration list for PBXProject "HelloHeena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39813A021F67FA6D00FC3D60 /* Debug */,
+				39813A031F67FA6D00FC3D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39813A041F67FA6D00FC3D60 /* Build configuration list for PBXNativeTarget "HelloHeena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39813A051F67FA6D00FC3D60 /* Debug */,
+				39813A061F67FA6D00FC3D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39813A071F67FA6D00FC3D60 /* Build configuration list for PBXNativeTarget "HelloHeenaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39813A081F67FA6D00FC3D60 /* Debug */,
+				39813A091F67FA6D00FC3D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39813A0A1F67FA6D00FC3D60 /* Build configuration list for PBXNativeTarget "HelloHeenaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39813A0B1F67FA6D00FC3D60 /* Debug */,
+				39813A0C1F67FA6D00FC3D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		398139E31F67FA6D00FC3D60 /* HelloHeena.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				398139E41F67FA6D00FC3D60 /* HelloHeena.xcdatamodel */,
+			);
+			currentVersion = 398139E41F67FA6D00FC3D60 /* HelloHeena.xcdatamodel */;
+			path = HelloHeena.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 398139D11F67FA6C00FC3D60 /* Project object */;
+}
